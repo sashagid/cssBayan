@@ -13,7 +13,7 @@
 .lvl {
     max-width: 320px;
     margin: 20px auto;
-    background-color: #777575;
+    background-color: #adec00;
 }
   /* Tablet styles 820x1180*/
   @media screen and (min-width: 820px) {
@@ -30,7 +30,7 @@
 .lvl {
     max-width: 360px;
     margin: 20px auto;
-    background-color: #f5f3f3;
+    background-color: #6a9101;
 }
   }
   
@@ -49,7 +49,7 @@
 .lvl {
     max-width: 460px;
     margin: 20px auto;
-    background-color: #8f4e4e;
+    background-color: #3d5301;
 }
   }
 
@@ -86,7 +86,7 @@ h1 {
 
 .lvl-item {
     margin-bottom: 5px;
-    border: 1px solid rgb(250, 105, 1);
+    border: 2px solid rgb(250, 105, 1);
 }
 
 .lvl-title:after {
@@ -140,7 +140,7 @@ h1 {
     transition: opacity 2s;
    }
 
-   .lvl-content:hover{
+.lvl-content:hover{
     display: none;
     padding: 10px;
     text-align: center;
