@@ -19,10 +19,11 @@ body {
     font-size: 2.5rem;
     line-height: 3rem;
     font-weight: 700; 
+    color: rgb(32, 138, 0);
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1920px) {
     body {
         font-size: 2.5rem;
         line-height: 3rem;
@@ -56,7 +57,11 @@ body {
         opacity: 1;
     }
 
-  }
+    .lvl-item-input:hover ~.lvl-item-label,
+    .lvl:hover {
+    color: black;
+    transition: 1s;
+    }
 
     .lvl-item-input:hover ~.lvl-item-label .lvl-item-icon {
         background-image: url(../images/close.svg);
@@ -66,7 +71,7 @@ body {
         height: 25rem;
         opacity: 1;
     }
-
+}
 .accardeon{
     max-width: 192rem;
     display: flex;
