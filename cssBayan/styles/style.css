@@ -64,7 +64,9 @@ body {
     }
 
     .lvl-item-input:hover ~.lvl-item-label .lvl-item-icon {
-        background-image: url(../images/close.svg);
+        transform: rotate(45deg);
+        transition: 1s;
+        /*background-image: url(../images/close.svg);*/
     }
 
     .lvl-item-label:hover .lvl-img {
@@ -154,7 +156,9 @@ body {
 }
 
 .lvl-item-input:checked ~.lvl-item-label .lvl-item-icon {
-    background-image: url(../images/close.svg);
+    transform: rotate(45deg);
+    transition: 1s;
+   /* background-image: url(../images/close.svg);*/
 }
 
 .lvl-item-input:checked ~.lvl-item-label .lvl-img {
